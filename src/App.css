@@ -1,0 +1,250 @@
+body{
+  background-color: rgba(202, 214, 155, 0.773);
+}
+
+.containers
+{
+  margin: 20px;
+  padding: 20px;
+}
+
+
+.btns{
+ width: 100%;
+ margin-top: 30px;
+ display: block;
+ background-color: #fff;
+ margin: auto;
+margin-left: 5px;
+}
+
+.wh-shadow{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.watchlist-btn{
+  margin-bottom: 25px;
+  margin-top: 35px;
+  border-radius: 4px;
+  font-size: 13px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  background-color: rgb(255, 255, 255);
+  /* color:rgb(0, 207, 253); */
+ 
+  font-weight: 600;
+  border-color: transparent;
+}
+.btncolor-tight
+{
+  color:rgb(0, 207, 253); 
+}
+.btncolor-light
+{
+  color:rgb(203, 236, 244);
+}
+
+.trade-list {
+  cursor: pointer;
+}
+
+.box 
+{
+  background-color:#FFFF;
+  height:1000px;
+  margin: 10px;
+
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 4px rgba(176, 172, 172, 0.2);
+}
+
+
+
+.box-2 .card
+{
+  padding: 10px;
+}
+.box-2 .card .sm-line-details .sm-details
+{
+  background-color: rgb(104, 155, 83);
+  color:#fff;
+  padding: 2px;
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 8px;
+}
+.box-2 .card .sm-line-details .sm-cost
+{
+   color:rgb(104, 155, 83);
+   font-size: 18px;
+   font-weight: 800;
+  /* padding-top: 8px; */
+}
+
+
+
+.volumecsl
+{
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.volume-content
+{
+  margin: 10px;
+  height: 200px;
+  border-radius: 15px;
+  background-color: rgb(224, 227, 230);
+}
+
+.price-indicator
+{
+  margin: 10px;
+  height: 150px;
+  border-radius: 15px;
+  background-color: rgb(224, 227, 230);
+}
+
+.trade-look
+{
+  margin: 10px;
+  height: 200px;
+  border-radius: 15px;
+  /* background-color: rgb(224, 227, 230); */
+
+}
+.trd-look-btn
+{
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+.trade-left
+{
+  margin-left: auto;
+}
+.trade-right
+{
+  margin-right: auto;
+}
+.trade-details
+{
+  line-height:0.5;
+}
+
+
+.trade-btn {
+  background-color:rgb(191, 0, 201);
+  color: #fff;
+  padding:10px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  cursor:pointer;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgba(202, 214, 155, 0.773);
+  }
+  
+  .containers {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .btns {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    overflow: auto;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .watchlist-btn {
+    margin: 6px;
+    display: inline;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    font-size: 13px;
+    background-color: rgb(255, 255, 255);
+    /* color:rgb(0, 207, 253); */
+    font-weight: 600;
+    border-color: transparent;
+    white-space: nowrap;
+  }
+  
+  .box {
+    background-color: #ffff;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(176, 172, 172, 0.2);
+  }
+  
+  .box-1 {
+    /* background-color: #fff; */
+
+  }
+  
+  .box-2 .card {
+    padding: 10px;
+  }
+  
+  .box-2 .card .sm-line-details .sm-details {
+    background-color: rgb(104, 155, 83);
+    color: #fff;
+    padding: 2px;
+    font-size: 12px;
+    font-weight: 500;
+    padding-top: 8px;
+  }
+  
+  .box-2 .card .sm-line-details .sm-cost {
+    color: rgb(104, 155, 83);
+    font-size: 18px;
+    font-weight: 800;
+  }
+  
+  .volumecsl {
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-left: 10px;
+  }
+  
+  .volume-content {
+    margin: 10px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: rgb(224, 227, 230);
+  }
+  
+  .price-indicator {
+    margin: 10px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: rgb(224, 227, 230);
+  }
+  
+  .trade-look {
+    margin: 10px;
+    height: 200px;
+    border-radius: 15px;
+  }
+  
+  .trd-look-btn {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .trade-details {
+    line-height: 0.5;
+  }
+  
+}
