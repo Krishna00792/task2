@@ -1,4 +1,4 @@
-import React,{useEffect, useState} from 'react';
+import React,{useState} from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css'
 import 'chart.js/auto';
@@ -65,11 +65,11 @@ const App = () => {
     <>
       <div className="containers">
         <div className="row">
-          <div className="col-lg-1 box">
+          <div className="col-lg-1 box mt-1">
             <div className="box-1 ">
                <div className='btns'>
                 {watchlistbtn.map((btnList,index)=>{
-                  return <button key={index} onClick={handleClickBtn} className={` watchlist-btn ${  highlightsBtn == btnList ? 'btncolor-tight' : 'btncolor-light'}`} data-value={btnList} >Watchlist-{btnList}</button>
+                  return <button key={index} onClick={handleClickBtn} className={` watchlist-btn ${  Number(highlightsBtn) === Number(btnList) ? 'btncolor-tight' : 'btncolor-light'}`} data-value={btnList} >Watchlist-{btnList}</button>
                 })}
                </div>
             </div>
