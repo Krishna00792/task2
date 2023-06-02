@@ -3,7 +3,7 @@ export const watchlistbtn=[1,2,3,4,5];
 
 export const defaultDetails={
         id:1,
-        company:'Nifty',
+        company:'NIFTY',
         points:'+0.85% +0.10',
         cost:'928.34',
         volume:'25,89,004',
@@ -16,7 +16,7 @@ export const defaultDetails={
 export const watchlistone=[
     {
     id:1,
-    company:'Nifty',
+    company:'NIFTY',
     points:'+0.85% +0.10',
     cost:'928.34',
     volume:'25,89,004',
@@ -27,7 +27,7 @@ export const watchlistone=[
     },
     {
     id:2,
-    company:'COMSO',
+    company:'BANK NIFTY',
     points:'+0.95% +0.10',
     cost:'928.34',
     volume:'95,83,204',
@@ -38,7 +38,7 @@ export const watchlistone=[
     },
     {
     id:3,
-    company:'APPLE',
+    company:'FIN NIFTY',
     points:'+0.75% +0.10',
     cost:'928.34',
     volume:'56,83,034',
@@ -49,7 +49,7 @@ export const watchlistone=[
     },
     {
     id:4,
-    company:'NTPR',
+    company:'S&P 500',
     points:'+0.35% +0.10',
     cost:'920.34',
     volume:'88,83,009',
@@ -64,8 +64,8 @@ export const watchlistone=[
 
 export const watchlisttwo=[
     {
-        id:1,
-    company:'INFO',
+    id:1,
+    company:'INFOSYS',
     points:'+0.85% +0.10',
     cost:'928.34',
     volume:'90,83,009',
@@ -76,7 +76,7 @@ export const watchlisttwo=[
     },
     {
         id:2,
-    company:'PAYPAL',
+    company:'TECH MAHINDRA',
     points:'+0.95% +0.10',
     cost:'828.34',
     volume:'88,83,009',
@@ -87,7 +87,7 @@ export const watchlisttwo=[
     },
     {
         id:3,
-    company:'MICRO',
+    company:'TCS',
     points:'+0.75% +0.10',
     cost:'920.34',
     volume:'20,83,009',
@@ -98,7 +98,7 @@ export const watchlisttwo=[
     },
     {
         id:4,
-    company:'GOOGLE',
+    company:'WIPRO',
     points:'+0.30% +0.10',
     cost:'020.34',
     volume:'88,83,009',
@@ -113,7 +113,7 @@ export const watchlisttwo=[
 export const watchlistthree=[
     {
         id:1,
-    company:'NOTE',
+    company:'ACCENTURE',
     points:'+0.84% +0.10',
     cost:'828.34',
     volume:'88,83,009',
@@ -124,7 +124,7 @@ export const watchlistthree=[
     },
     {
         id:2,
-    company:'ZINPACT',
+    company:'CAPGEMINI',
     points:'+0.95% +0.10',
     cost:'228.34',
     volume:'88,83,009',
@@ -135,7 +135,7 @@ export const watchlistthree=[
     },
     {
         id:3,
-    company:'WIPRO',
+    company:'CYIENT',
     points:'+0.75% +0.10',
     cost:'420.34',
     volume:'88,83,009',
@@ -146,7 +146,7 @@ export const watchlistthree=[
     },
     {
         id:4,
-    company:'FORD',
+    company:'COGNIZENT',
     points:'+0.35% +0.10',
     cost:'530.34',
     volume:'88,83,009',
@@ -161,7 +161,7 @@ export const watchlistthree=[
 export const watchlistfour=[
     {
         id:1,
-    company:'ACSL',
+    company:'RELIANCE INDUSTRIES',
     points:'+0.82% +0.10',
     cost:'787.34',
     volume:'88,83,009',
@@ -171,8 +171,8 @@ export const watchlistfour=[
     lineChart:[20, 10, 8, 15, 15,10,8,16,14]
     },
     {
-        id:2,
-    company:'DCSL',
+    id:2,
+    company:'DMART',
     points:'+0.87% +0.90',
     cost:'776.34',
     volume:'88,83,009',
@@ -182,8 +182,8 @@ export const watchlistfour=[
     lineChart:[20, 10, 8, 15, 15,10,8,16,14]
     },
     {
-        id:3,
-    company:'SMG',
+    id:3,
+    company:'VEDANTA',
     points:'+0.75% +0.10',
     cost:'920.34',
     volume:'88,83,009',
@@ -194,7 +194,7 @@ export const watchlistfour=[
     },
     {
         id:4,
-    company:'DVD',
+    company:'ADANI PORTS',
     points:'+0.35% +0.10',
     cost:'223.34',
     volume:'88,83,009',
@@ -209,7 +209,7 @@ export const watchlistfour=[
 export const watchlistfive=[
     {
         id:1,
-    company:'MILTON',
+    company:'HDFC BANK',
     points:'+0.82% +0.10',
     cost:'987.34',
     volume:'48,83,009',
@@ -220,7 +220,7 @@ export const watchlistfive=[
     },
     {
         id:2,
-    company:'RBAC',
+    company:'ICICI BANK',
     points:'+0.87% +0.90',
     cost:'976.34',
     volume:'38,83,009',
@@ -231,7 +231,7 @@ export const watchlistfive=[
     },
     {
         id:3,
-    company:'NOKIA',
+    company:'KOTAK MAHINDRA BANK',
     points:'+0.75% +0.10',
     cost:'920.34',
     volume:'88,83,009',
@@ -241,8 +241,8 @@ export const watchlistfive=[
     lineChart:[20, 10, 8, 15, 15,10,8,16,14]
     },
     {
-        id:4,
-    company:'AMAZON',
+    id:4,
+    company:'STATE BANK OF INDIA',
     points:'+0.35% +0.10',
     cost:'1023.34',
     volume:'100,83,009',
