@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+The project is a stock market watchlist application built using ReactJS. It consists of three main components: the watchlist, the stock details with charts, and the line and bar graph section. The application utilizes the react-chartjs-2 package to display interactive and visually appealing stock charts.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In the first box, the watchlist section, there are five watchlists displayed. Each watchlist contains four stocks. This is achieved by utilizing the map function to dynamically render the watchlist and stocks based on the provided data. Users can easily navigate through different watchlists and view the stocks included in each list.
 
-## Available Scripts
+The second box displays the stock details and charts. When a user clicks on a specific stock, they are presented with detailed information about that stock, including the current price and the difference in price compared to the previous day. Additionally, the stock's line and bar graphs are displayed, providing a visual representation of the stock's performance over a specific time period. This enhances the user's ability to analyze and understand the stock's trends and patterns.
 
-In the project directory, you can run:
+The third box contains two charts, a volume box, a price indicator, and an open trade option. The charts provide further insights into the stock's historical data, allowing users to make informed decisions. The volume box displays the trading volume of the stock, which can be useful in determining the stock's liquidity. The price indicator helps users easily identify the stock's current price level. Additionally, the open trade option allows users to initiate a trade directly from the application, enhancing the convenience and usability of the platform.
 
-### `npm start`
+The project has been built in a professional manner by leveraging modern web development practices. It utilizes ReactJS, a popular JavaScript library for building user interfaces, which allows for efficient component-based development and facilitates code reusability. The integration of the react-chartjs-2 package with Chart.js enhances the visualization capabilities of the application, enabling the display of interactive and responsive stock charts.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The use of Bootstrap ensures a responsive and mobile-friendly layout, providing a seamless user experience across different devices and screen sizes. This helps to make the application accessible and user-friendly for a wide range of users.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Overall, the project showcases a professional approach to building a stock market watchlist application. It effectively combines ReactJS, Bootstrap, and charting libraries to create an intuitive and visually appealing platform for tracking and analyzing stocks.
