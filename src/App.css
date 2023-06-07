@@ -1,5 +1,6 @@
 body{
-  background-color: rgba(202, 214, 155, 0.773);
+  background: rgb(17,127,129);
+background: linear-gradient(90deg, rgba(17,127,129,1) 0%, rgba(73,203,59,1) 40%, rgba(23,180,185,1) 84%);
 }
 
 .containers
@@ -18,9 +19,9 @@ body{
   margin-left: 5px;
 }
 
-.wh-shadow{
+/* .wh-shadow{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-}
+} */
 .watchlist-btn{
   margin-bottom: 25px;
   margin-top: 35px;
